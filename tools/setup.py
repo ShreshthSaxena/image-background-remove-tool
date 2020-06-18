@@ -131,8 +131,8 @@ def setup():
                     pass
 
 def cli():
-    print("Choose which model you want to install:\n{}\nall".format('\n'.join(MODELS_NAMES)))
-    model_name = input("Enter model name: ")
+    # print("Choose which model you want to install:\n{}\nall".format('\n'.join(MODELS_NAMES)))
+    model_name = "u2net"
     if model_name == "all":
         setup()
     elif model_name == "u2net":
